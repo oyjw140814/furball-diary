@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "毛球日记"
+      }
+    },
+    {
+      "path": "pages/weight/index",
+      "style": {
+        "navigationBarTitleText": "体重曲线"
+      }
+    },
+    {
+      "path": "pages/knowledge/index",
+      "style": {
+        "navigationBarTitleText": "养宠知识"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/report/index",
+      "style": {
+        "navigationBarTitleText": "健康报告"
+      }
+    },
+    {
+      "path": "pages/hospital/index",
+      "style": {
+        "navigationBarTitleText": "附近宠物医院"
+      }
+    },
+    {
+      "path": "pages/match/index",
+      "style": {
+        "navigationBarTitleText": "品种匹配"
+      }
+    },
+    {
+      "path": "pages/record-detail/index",
+      "style": {
+        "navigationBarTitleText": "记录详情"
+      }
+    },
+    {
+      "path": "pages/article-detail/index",
+      "style": {
+        "navigationBarTitleText": "文章详情"
+      }
+    },
+    {
+      "path": "pages/breed-detail/index",
+      "style": {
+        "navigationBarTitleText": "品种详情"
+      }
+    },
+    {
+      "path": "pages/hospital-detail/index",
+      "style": {
+        "navigationBarTitleText": "医院详情"
+      }
+    },
+    {
+      "path": "pages/account/index",
+      "style": {
+        "navigationBarTitleText": "账号管理"
+      }
+    },
+    {
+      "path": "pages/settings/index",
+      "style": {
+        "navigationBarTitleText": "设置详情"
+      }
+    }
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#999999",
+    "selectedColor": "#FF7F50",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/weight/index",
+        "text": "体重曲线"
+      },
+      {
+        "pagePath": "pages/knowledge/index",
+        "text": "知识库"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "毛球日记",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@/uni_modules/uni-ui/components/uni-$1/uni-$1.vue"
+    }
+  }
+}

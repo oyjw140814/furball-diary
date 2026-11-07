@@ -1,0 +1,19 @@
+{
+  "name": "毛球日记",
+  "appid": "__UNI__MAOQIURIJI",
+  "description": "温暖友好的宠物健康管理应用",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "毛球日记",
+    "router": {
+      "base": "./",
+      "mode": "hash"
+    }
+  },
+  "vueVersion": "3"
+}
